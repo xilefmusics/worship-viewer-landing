@@ -1,0 +1,254 @@
+import {
+  Card,
+  CardContent,
+  CardHeader,
+  CardTitle,
+} from "@/components/ui/card";
+
+export default function PrivacyPolicyPage() {
+  return (
+    <main className="mx-auto flex min-h-screen max-w-3xl flex-col gap-6 px-6 py-16">
+      <Card className="gap-0">
+        <CardHeader>
+          <p className="text-sm uppercase tracking-widest text-muted-foreground">
+            Transparency & Security
+          </p>
+          <CardTitle className="text-4xl">Datenschutzerklärung</CardTitle>
+          <p className="text-muted-foreground">
+            The content below remains in German to comply with German data
+            protection requirements.
+          </p>
+        </CardHeader>
+        <CardContent className="space-y-8">
+          <section className="space-y-2">
+            <h2 className="text-2xl font-semibold">1. Verantwortliche Stelle</h2>
+            <p className="text-muted-foreground">
+              Felix Rollbühler
+              <br />
+              Münklinger Str. 2
+              <br />
+              75378 Bad Liebenzell
+              <br />
+              E-Mail: info@worshipviewer.com
+            </p>
+            <p className="text-sm italic text-muted-foreground">
+              Hinweis: Diese App wird privat betrieben und dient nicht
+              kommerziellen Zwecken. Es besteht keine gesetzliche Verpflichtung
+              zur Benennung eines Datenschutzbeauftragten.
+            </p>
+          </section>
+
+          <section className="space-y-4">
+            <div className="space-y-2">
+              <h2 className="text-2xl font-semibold">
+                2. Erhebung und Speicherung personenbezogener Daten
+              </h2>
+              <p className="text-muted-foreground">
+                Beim Besuch dieser Website bzw. bei Nutzung unserer App werden
+                personenbezogene Daten nur im technisch notwendigen Umfang
+                erhoben.
+              </p>
+            </div>
+            <div className="space-y-2">
+              <p className="font-semibold text-foreground">
+                a) Server-Logfiles (Hosting über Google Cloud Run)
+              </p>
+              <p className="text-muted-foreground">
+                Wir nutzen Google Cloud Run (Google Ireland Limited, Gordon
+                House, Barrow Street, Dublin 4, Irland) als Hosting-Dienst. Beim
+                Aufruf unserer App bzw. Website werden automatisch
+                Server-Logfiles erhoben und gespeichert (IP-Adresse, Datum und
+                Uhrzeit des Zugriffs, Browsertyp bzw. -version, App-Version,
+                Betriebssystem, Referrer-URL – falls übermittelt). Diese Daten
+                dienen ausschließlich der Sicherstellung eines störungsfreien
+                Betriebs, der IT-Sicherheit sowie der Fehleranalyse.
+              </p>
+              <p className="text-muted-foreground">
+                Verarbeitungsort: Die Verarbeitung erfolgt grundsätzlich in
+                Rechenzentren innerhalb der Europäischen Union. Eine
+                Datenübermittlung in Drittländer findet nur statt, sofern die
+                Voraussetzungen der Art. 44 ff. DSGVO erfüllt sind.
+              </p>
+              <p className="text-muted-foreground">
+                Löschung der Logdaten: spätestens nach 30 Tagen.
+              </p>
+            </div>
+            <div className="space-y-2">
+              <p className="font-semibold text-foreground">
+                b) Nutzerkonto / Login-Bereich
+              </p>
+              <p className="text-muted-foreground">
+                Wenn Sie sich registrieren oder anmelden, speichern wir die
+                folgenden Daten:
+              </p>
+              <ul className="list-disc space-y-1 pl-5 text-muted-foreground">
+                <li>E-Mail-Adresse</li>
+                <li>Zeitpunkt des letzten Logins</li>
+                <li>Anzahl der getätigten Anfragen</li>
+              </ul>
+              <p className="text-muted-foreground">
+                Diese Daten benötigen wir, um den Zugang bereitzustellen,
+                Missbrauch zu verhindern und einfache Nutzungsstatistiken zu
+                führen. Eine Weitergabe an Dritte erfolgt nicht.
+              </p>
+            </div>
+            <div className="space-y-2">
+              <p className="font-semibold text-foreground">c) Kommunikation per E-Mail</p>
+              <p className="text-muted-foreground">
+                Wenn Sie uns per E-Mail kontaktieren, verarbeiten wir die von
+                Ihnen übermittelten personenbezogenen Daten (z. B. Name,
+                E-Mail-Adresse, Inhalte der Nachricht) zur Bearbeitung Ihres
+                Anliegens. Nach Abschluss der Kommunikation werden diese Daten
+                gelöscht, sofern keine gesetzlichen Aufbewahrungspflichten
+                bestehen.
+              </p>
+            </div>
+          </section>
+
+          <section className="space-y-2">
+            <h2 className="text-2xl font-semibold">
+              3. Zwecke und Rechtsgrundlagen der Verarbeitung
+            </h2>
+            <p className="text-muted-foreground">
+              Die Verarbeitung erfolgt zu folgenden Zwecken und auf folgenden
+              Rechtsgrundlagen:
+            </p>
+            <ul className="list-disc space-y-1 pl-5 text-muted-foreground">
+              <li>
+                Bereitstellung, Betrieb, Stabilität und Sicherheit der App bzw.
+                Website (Art. 6 Abs. 1 lit. f DSGVO – berechtigtes Interesse:
+                Betrieb, IT-Sicherheit, Fehleranalyse)
+              </li>
+              <li>
+                Verwaltung von Nutzerkonten (Art. 6 Abs. 1 lit. b DSGVO –
+                Erfüllung der Nutzungsbeziehung)
+              </li>
+              <li>
+                Beantwortung von Anfragen bzw. Support (Art. 6 Abs. 1 lit. f
+                DSGVO – berechtigtes Interesse an effizienter Kommunikation)
+              </li>
+              <li>
+                Soweit im Einzelfall erforderlich: Verarbeitung auf Grundlage
+                Ihrer Einwilligung (Art. 6 Abs. 1 lit. a DSGVO); Einwilligungen
+                können jederzeit mit Wirkung für die Zukunft widerrufen werden.
+              </li>
+            </ul>
+          </section>
+
+          <section className="space-y-2">
+            <h2 className="text-2xl font-semibold">4. Weitergabe von Daten</h2>
+            <p className="text-muted-foreground">
+              Eine Übermittlung Ihrer personenbezogenen Daten an Dritte erfolgt
+              nur, wenn dies gesetzlich erlaubt ist. Für das Hosting setzen wir
+              Google Cloud Run (Google Ireland Limited) als Auftragsverarbeiter
+              nach Art. 28 DSGVO ein; Google kann zur Erbringung der Leistungen
+              verbundene Unternehmen bzw. Subunternehmer einsetzen.
+            </p>
+            <p className="text-muted-foreground">
+              Mit Google wurde ein Vertrag zur Auftragsverarbeitung (AVV)
+              abgeschlossen. Details:
+              <a
+                className="ml-1 underline"
+                href="https://cloud.google.com/terms/data-processing-terms"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Google Cloud Data Processing Terms
+              </a>
+              .
+            </p>
+            <p className="text-muted-foreground">
+              Eine weitergehende Weitergabe findet nicht statt.
+            </p>
+          </section>
+
+          <section className="space-y-2">
+            <h2 className="text-2xl font-semibold">5. Speicherung und Löschung</h2>
+            <ul className="list-disc space-y-1 pl-5 text-muted-foreground">
+              <li>Server-Logfiles: Löschung spätestens nach 30 Tagen.</li>
+              <li>
+                Nutzerdaten (E-Mail, letzter Login, Anzahl Anfragen): Speicherung
+                bis zur Löschung des Nutzerkontos bzw. solange dies zur
+                Bereitstellung der App erforderlich ist.
+              </li>
+              <li>
+                Backups: Datensicherungen werden rollierend geführt und
+                spätestens nach 30 Tagen automatisiert überschrieben.
+              </li>
+              <li>
+                E-Mail-Kommunikation: Löschung nach Abschluss der Anfrage,
+                sofern keine gesetzlichen Aufbewahrungspflichten bestehen.
+              </li>
+              <li>
+                Bei Löschung eines Nutzerkontos werden die zugehörigen
+                personenbezogenen Daten innerhalb von 7 Tagen entfernt bzw.
+                anonymisiert.
+              </li>
+            </ul>
+          </section>
+
+          <section className="space-y-2">
+            <h2 className="text-2xl font-semibold">6. Ihre Rechte</h2>
+            <p className="text-muted-foreground">
+              Sie haben das Recht auf Auskunft, Berichtigung, Löschung,
+              Einschränkung der Verarbeitung sowie Datenübertragbarkeit. Ihnen
+              steht außerdem ein Widerspruchsrecht gegen die Verarbeitung
+              personenbezogener Daten zu, die wir auf Basis berechtigter
+              Interessen verarbeiten. Eine erteilte Einwilligung können Sie
+              jederzeit mit Wirkung für die Zukunft widerrufen.
+            </p>
+            <p className="text-muted-foreground">
+              Wenden Sie sich hierzu bitte an die oben genannte verantwortliche
+              Stelle. Ihnen steht zudem ein Beschwerderecht bei einer
+              Datenschutzaufsichtsbehörde zu.
+            </p>
+            <p className="text-sm italic text-muted-foreground">
+              Zuständige Aufsichtsbehörde: Der Landesbeauftragte für den
+              Datenschutz und die Informationsfreiheit Baden-Württemberg (LfDI
+              BW), Lautenschlagerstraße 20, 70173 Stuttgart –
+              <a
+                className="ml-1 underline"
+                href="https://www.baden-wuerttemberg.datenschutz.de"
+                target="_blank"
+                rel="noreferrer"
+              >
+                https://www.baden-wuerttemberg.datenschutz.de
+              </a>
+              .
+            </p>
+          </section>
+
+          <section className="space-y-2">
+            <h2 className="text-2xl font-semibold">7. Datensicherheit</h2>
+            <p className="text-muted-foreground">
+              Wir setzen technische und organisatorische Maßnahmen ein, um Ihre
+              Daten gegen Manipulation, Verlust, Zerstörung oder unbefugten
+              Zugriff zu schützen und passen diese fortlaufend an den Stand der
+              Technik an.
+            </p>
+            <p className="text-muted-foreground">
+              Die Übertragung personenbezogener Daten erfolgt ausschließlich
+              über verschlüsselte Verbindungen (HTTPS/TLS).
+            </p>
+          </section>
+
+          <section className="space-y-2">
+            <h2 className="text-2xl font-semibold">
+              8. Aktualität und Änderung dieser Datenschutzerklärung
+            </h2>
+            <p className="text-muted-foreground">
+              Wir behalten uns vor, diese Datenschutzerklärung zu aktualisieren,
+              um sie an geänderte Rechtslagen oder Änderungen des Dienstes
+              anzupassen.
+            </p>
+          </section>
+
+          <p className="text-sm italic text-muted-foreground">
+            Stand: 10. November 2025
+          </p>
+        </CardContent>
+      </Card>
+    </main>
+  );
+}
+

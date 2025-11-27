@@ -1,0 +1,20 @@
+# syntax=docker/dockerfile:1
+
+FROM node:20-alpine AS builder
+
+WORKDIR /app
+
+COPY package*.json ./
+RUN if [ -f package-lock.json ]; then npm ci; else npm install; fi
+
+COPY . .
+RUN npm run build:static
+
+FROM nginx:1.29-alpine AS runner
+
+COPY --from=builder /app/out /usr/share/nginx/html
+
+EXPOSE 80
+
+CMD ["nginx", "-g", "daemon off;"]
+
