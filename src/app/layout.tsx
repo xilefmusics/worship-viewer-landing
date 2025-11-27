@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Worship Viewer",
   description:
-    "Helps you lead worship, keeps every chart, slide, click, and cue in sync so you can focus on the room.",
+    "Helps you lead worship - then steps aside when the Spirit takes over.",
   icons: {
     icon: "/favicon.png",
   },
