@@ -159,9 +159,14 @@ export default function Home() {
               />
             </div>
           </div>
-          <Button asChild>
-            <Link href="https://app.worshipviewer.com">Login</Link>
-          </Button>
+          <div className="flex items-center gap-3">
+            <Button asChild variant="secondary">
+              <Link href="/learn-grow">Learn & Grow</Link>
+            </Button>
+            <Button asChild>
+              <Link href="https://app.worshipviewer.com">Login</Link>
+            </Button>
+          </div>
         </div>
       </header>
 
