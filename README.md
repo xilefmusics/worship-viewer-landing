@@ -1,6 +1,6 @@
 ## Worship Viewer Landing
 
-Static Next.js (App Router) landing page for Worship Viewer. It includes a hero section, ShadCN UI cards, a login CTA (linking to `https://app.worshipviewer.com/login`), and placeholder pages for Imprint (Impressum), Privacy Policy (Datenschutzerklärung), and Terms & Conditions (AGB) that you can fill in later.
+Static Next.js (App Router) landing page for Worship Viewer. It includes a hero section, ShadCN UI cards, a login CTA (linking to `https://app.worshipviewer.com`), and placeholder pages for Imprint (Impressum), Privacy Policy (Datenschutzerklärung), and Terms & Conditions (AGB) that you can fill in later.
 
 ## Local development
 

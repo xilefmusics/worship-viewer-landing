@@ -160,7 +160,7 @@ export default function Home() {
             </div>
           </div>
           <Button asChild>
-            <Link href="https://app.worshipviewer.com/login">Login</Link>
+            <Link href="https://app.worshipviewer.com">Login</Link>
           </Button>
         </div>
       </header>
@@ -180,7 +180,7 @@ export default function Home() {
             </p>
             <div className="flex flex-wrap items-center gap-4">
               <Button asChild size="lg">
-                <Link href="https://app.worshipviewer.com/login">Go to Login</Link>
+                <Link href="https://app.worshipviewer.com">Go to Login</Link>
               </Button>
               <p className="text-sm uppercase tracking-wide text-muted-foreground">
                 Join Now For Free
